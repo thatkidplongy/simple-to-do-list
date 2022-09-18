@@ -57,7 +57,7 @@ export default function App() {
           onChange={(e) => setInputTodos(e.target.value)}
         ></input>
         <button id="span" onClick={handleTodo}>
-          To do List
+          Add to do item
         </button>
         <button onClick={() => setTodolistItems([])} id="span">
           Clear
